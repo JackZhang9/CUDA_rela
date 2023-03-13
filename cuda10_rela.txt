@@ -1,25 +1,25 @@
-CUDA10֧�ֵĲ���ϵͳ�ͱ�����
-����ϵͳ��Ubuntu18.04
+CUDA10支持的操作系统和编译器
+操作系统：Ubuntu18.04
 
-CUDA10֧�ּ���⣺nvJPPEG(jppgͼ������)���Ż���cublas(�������Դ��������)���Ż���cufft(���ٸ���Ҷ�任)�����Լ���dataloader,
-֧��curand(�����)��cusparse(ϡ�����)��cusolver(�����Է�����)
-��cutlass(�Զ�������Դ�������)
+CUDA10支持计算库：nvJPPEG(jppg图像处理库)，优化了cublas(基础线性代数计算库)，优化了cufft(快速傅里叶变换)，可以加速dataloader,
+支持curand(随机数)，cusparse(稀疏矩阵)，cusolver(解线性方程组)
+，cutlass(自定义的线性代数运算)
 
-CUDA10֧�ּ���ܹ���
+CUDA10支持计算架构：
 Kepler
 Maxwell
 Pascal
 Volta
-Turing(RTX2080Ti,Titan RTX,Tesla T4)
-Ampere()
+CUDA10:Turing(RTX2080Ti,Titan RTX,Tesla T4)
+CUDA11:Ampere()
 
-Խ�µİ汾����Խ��
-��ͬ��DL��ܻ��õ���ͬ��CUDA�汾
+越新的版本性能越好
+不同的DL框架会用到不同的CUDA版本
 
-��װNvidia����
-��װCUDA
-��װcuDNN
-��װAnaconda
-��װpycharm
-��װpytorch
+安装Nvidia驱动
+安装CUDA
+安装cuDNN
+安装Anaconda
+安装pycharm
+安装pytorch
 
